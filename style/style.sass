@@ -1,6 +1,18 @@
 body
   margin: 0
   padding: 0
+  
+.content
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.buttonWrapper
+  display: flex
+  margin-left: 20px
+
+.paragraphWrapper
+  margin-top: -2px 
 
 .Button
   width: 150px
@@ -14,7 +26,6 @@ body
   border-top-left-radius: 5px
   border-top-right-radius: 5px
   outline: none
-  position: relative
 
 p
   border: 2px solid green
@@ -24,12 +35,7 @@ p
   width: 750px
   border-radius: 5px
   border-top-left-radius: 0
-
-.buttonWrapper
-  display: flex
-  margin-left: 20px
-
-
+  
 .borderBottomNull
   border-bottom: 0
   background: white
@@ -38,7 +44,27 @@ p
 .border
   border-bottom: 2px solid green
 
-.paragraphWrapper
-  position: absolute
-  top: 78px
-  z-index: -1
+.divMoving
+  margin-top: 30px
+
+.redDiv1, .yellowDiv2, .greenDiv3
+  width: 150px
+  height: 30px
+  text-align: center
+  line-height: 30px
+  margin: 5px 0
+
+.redDiv1
+  background-color: red
+
+.yellowDiv2
+  background-color: yellow
+
+.greenDiv3
+  background-color: green
+
+.ajaxTraining
+  display: flex
+  flex-direction: column
+  justify-content: center
+
